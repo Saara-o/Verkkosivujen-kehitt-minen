@@ -1,0 +1,1 @@
+Kolmas työpajatehtävä: kopioitu WS03 index ja styles, joita muokattu tehtävänannon mukaisesti
