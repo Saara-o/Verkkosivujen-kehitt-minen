@@ -3,7 +3,6 @@ body {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
-
    
 }
 
@@ -12,25 +11,33 @@ div {
     border-style: double; 
     width: 160px;
     height: auto;
+    
 }
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     color: black;
+    text-align: center;
+    
 }
 
 h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     color: black;
+    border-style: double;
+    border-top: 2px; 
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgba(247, 198, 23, 0.984);
     
 }
 
 .subheading {
     display: inline-block;
     margin-right: 20px;
-    
+
   }
 
 p {
@@ -38,4 +45,6 @@ p {
     font-size: 16px;
     background-color: rgba(255, 214, 66, 0.984); width: 190px;
     border-radius: 5px;
+    text-align: center;
+    
 }
