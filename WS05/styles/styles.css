@@ -31,29 +31,24 @@ nav {
     text-align: center;
 }
 
+span {
+    color:rgb(244, 191, 0) ;
+}
+
 .subheading {
     display: inline-block;
     margin-right: 20px;
 
 }
-
 section {
-    margin-left: 50px;
-
+    margin-left: 30px;
 }
 
-h3 {
-    font-size: x-large;
-}
 
-img {
-    margin-left: 50px;
-
-}
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 5px;
+   gap: 50px;
     
 }
