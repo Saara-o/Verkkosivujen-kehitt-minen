@@ -44,11 +44,12 @@ section {
     margin-left: 30px;
 }
 
-
-
-.grid-container {
+#grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-   gap: 50px;
+
     
+}
+#kuva2 {
+    margin-left: 10px;
 }
