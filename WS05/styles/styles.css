@@ -53,3 +53,14 @@ section {
 #kuva2 {
     margin-left: 10px;
 }
+
+#YT {
+    background-color: rgba(245, 245, 245, 0.649);
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    position: float;
+    bottom: 0;
+    width: 100%;
+
+}
