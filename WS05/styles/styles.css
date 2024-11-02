@@ -2,8 +2,6 @@ body {
     background-color:white;
     font-family: 'Times New Roman', Times, serif;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto; 
 }
 
 header {
@@ -12,6 +10,7 @@ header {
     text-align: center;
     font-size: 30px;
     color: rgba(0, 0, 0, 0.795);
+    margin-right: 15px;
   }
 
 h1 {
@@ -36,4 +35,25 @@ nav {
     display: inline-block;
     margin-right: 20px;
 
+}
+
+section {
+    margin-left: 50px;
+
+}
+
+h3 {
+    font-size: x-large;
+}
+
+img {
+    margin-left: 50px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 5px;
+    
 }
