@@ -24,6 +24,7 @@ h1 {
     margin-bottom: 0;
 }
 
+
 p {
     font-style: italic;
     font-size: medium;
@@ -35,7 +36,7 @@ p {
     margin-left: 8px;
     margin-right: 8px;
 
-    }
+}
 
 .horizontal > div {
     background-color:rgba(89, 211, 144, 0.377);
@@ -68,7 +69,7 @@ section {
 ul {
     list-style-type: none;
     padding: 5px;
-    text-align: center;
+    
   }
 
 footer {
