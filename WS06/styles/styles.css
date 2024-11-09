@@ -10,32 +10,12 @@ body {
 }
 
 header {
-    background-color:mediumseagreen;
+    background-color:goldenrod;
     padding: 10px;
-    padding-bottom: 25px;
     text-align: center;
     font-size: 25px;
     color: rgba(0, 0, 0, 0.795);
     margin-top: 5px;
-
-  }
-
-h1 {
-    margin-bottom: 0;
-}
-
-h3 {
-    margin-top: 1px;
-}
-
-p {
-    font-size: medium;
-    
-}
-
-.info {
-    width: 70%;
-    height: 100%;
 
 }
 
@@ -46,42 +26,68 @@ p {
 
 .horizontal > div {
     background-color:rgba(89, 211, 144, 0.377);
-    margin: 0;
-    max-width: 100%;
     padding: 15px;
     font-size: 15px;
     color: black;
-    flex:auto;
+    flex: 50px;
     text-align: center;
 
 }
 
+a:hover {
+    color: red;
+    background-color: transparent;
+
+}
+
 section {
-    width: 100%;
-    height: 250px;
+    width: 130%;
+    height: auto;
     padding: 0%;
 
-  }
+}
 
 .vertical {
     background-color:rgba(89, 211, 144, 0.377);
     float: left;
-    width: 15%;
-    height: 500px;
+    width: 11%;
+    height: 450px;
     margin-right: 15px;
    
 }
 
 ul {
     list-style-type: none;
-    padding: 5px;
+    padding: 10px;
 
   }
 
 .lista {
     margin-left: 15px;
+    
 
+}
 
+#info1 {
+    width: 50%;
+    height: auto;
+
+}
+
+.info {
+    width: 75%;
+    height: auto;
+}
+
+#nekomata {
+    float: right;
+    margin-left: 20px;
+    
+}
+
+#bastet {
+    float: right;
+    margin-left: 20px;
 }
 
 footer {
