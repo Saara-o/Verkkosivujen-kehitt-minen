@@ -27,8 +27,7 @@ header {
 .horizontal > div {
     background-color:goldenrod;
     padding: 15px;
-    font-size: 15px;
-    color: black;
+    font-size: 16px;
     flex: 50px;
     text-align: center;
 
@@ -36,14 +35,14 @@ header {
 
 
 a:link {
-    color: black;
+    color: rgb(0, 109, 121);
     background-color: transparent;
     text-decoration: none;
 
 }
 
 a:visited {
-    color: rgb(0, 109, 121);
+    color:darkslategray;
     background-color: transparent;
     text-decoration: none;
 
@@ -79,7 +78,7 @@ ul {
 }
 
 li {
-margin-bottom: 30px;
+    margin-bottom: 30px;
 
 }
 
@@ -89,7 +88,7 @@ margin-bottom: 30px;
 }
 
 h2 {
-margin-top: 35px;
+    margin-top: 35px;
 
 }
 
@@ -102,6 +101,10 @@ margin-top: 35px;
 #info {
     width: 75%;
     height: auto;
+}
+
+#lähde {
+    font-size: small;
 }
 
 #nekomata {
