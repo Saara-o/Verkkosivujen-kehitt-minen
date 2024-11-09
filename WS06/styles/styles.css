@@ -1,6 +1,6 @@
 body {
-    background-color:white;
-    font-family: 'Times New Roman', Times, serif;
+    background-color:seashell;
+    font-family: 'Times New Roman', serif;
     width: 95%;
     display: flex;
     margin-left: auto;
@@ -10,13 +10,13 @@ body {
 }
 
 header {
-    background-color:goldenrod;
+    background-color:maroon;
     padding: 10px;
     text-align: center;
     font-size: 25px;
-    color: rgba(0, 0, 0, 0.795);
-    margin-top: 5px;
-
+    color: seashell;
+    margin-top: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .horizontal {
@@ -25,12 +25,27 @@ header {
 }
 
 .horizontal > div {
-    background-color:rgba(89, 211, 144, 0.377);
+    background-color:goldenrod;
     padding: 15px;
     font-size: 15px;
     color: black;
     flex: 50px;
     text-align: center;
+
+}
+
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: rgb(0, 109, 121);
+    background-color: transparent;
+    text-decoration: none;
 
 }
 
@@ -48,7 +63,7 @@ section {
 }
 
 .vertical {
-    background-color:rgba(89, 211, 144, 0.377);
+    background-color: transparent;
     float: left;
     width: 11%;
     height: 450px;
@@ -58,13 +73,17 @@ section {
 
 ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 30px;
 
-  }
+}
+
+li {
+margin-bottom: 20px;
+
+}
 
 .lista {
     margin-left: 15px;
-    
 
 }
 
@@ -91,8 +110,9 @@ ul {
 }
 
 footer {
+    background-color:maroon;
     text-align: center;
-    background-color: mediumseagreen;
     padding: 10px;
+    color: seashell;
 
 }
