@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-    margin-right: 35px;
+    margin-right: 135px;
     margin-top: 5px;
 
 }
@@ -21,12 +21,11 @@ nav {
 
 .header {
     padding-bottom: 5px;
+    max-width: fit-content;
 }
 
 #rahi {
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-bottom: 25px;
+    padding: 25px;
     float: right;
     position: relative;
 }
