@@ -96,6 +96,40 @@ nav {
 
 }
 
+#hinnat {
+    text-align: end;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    background-color: blanchedalmond;
+}
+
+#otsikko4 {
+    text-align: end;
+    padding-top: 70px;
+    padding-right: 190px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+#taulukko {
+    border-collapse: collapse;
+    width: 100%;
+
+    padding-bottom: 130px;
+    padding-left: 130px ;
+ 
+
+
+}
+
+td, th {
+    border: 1px solid;
+    text-align: left;
+    padding: 20px;
+
+}
+
 footer {
     font-size: 14px;
     width: 100%;
