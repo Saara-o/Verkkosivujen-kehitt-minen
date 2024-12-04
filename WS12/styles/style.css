@@ -19,7 +19,7 @@ nav {
 
 }
 
-.container {
+#etusivu {
     background-color: blanchedalmond;
 }
 
@@ -43,7 +43,7 @@ nav {
 #esittely {
     text-align: end;
     padding-right: 40px;
-    padding-left: 60px;
+    padding-left: 50px;
     padding-bottom: 150px;
 
 }
@@ -61,12 +61,47 @@ nav {
     padding-bottom: 130px;
 }
 
+#galleria {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    background-color: blanchedalmond;
+
+}
+#otsikko3 {
+    text-align: end;
+    padding-top: 70px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+#demo {
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.thumbnails {
+    padding-right: 35px;
+}
+
+#sivupoyta {
+    margin-bottom: 15px;
+
+}
+
+#murasaki {
+    margin-bottom: 15px;
+
+}
+
 footer {
     font-size: 14px;
     width: 100%;
     text-align: center;
     display: block;
     position: sticky;
-    padding-top: 10px;
+    padding-top: 20px;
 
 }
