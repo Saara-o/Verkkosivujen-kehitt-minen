@@ -1,66 +1,72 @@
 body {
     width: 100%;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-
+    font-family: Georgia, serif;
+    font-size: medium;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
 }
 
 nav {
-    margin-right: 135px;
-    margin-top: 5px;
+    height: 5%;
+}
 
+.header {
+    max-width: 100%;
+    margin-bottom: 0px;
+
+}
+
+.container {
+    background-color: blanchedalmond;
+}
+
+#rahi {
+    max-width: 100%;
+    height: auto;
+    margin-right: 0px;
+}
+.col-md-4 {
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 #otsikko {
     text-align: end;
-    padding-top: 35px;
-    margin-bottom: 0;
+    padding-top: 130px;
+    padding-right: 40px;
 
-}
-
-.header {
-    padding-bottom: 5px;
-    max-width: 100%;
-}
-
-#rahi {
-    padding: 25px;
-    float: right;
-    position: relative;
 }
 
 #esittely {
-    text-align: right;
-    margin-bottom: 150px;
-    margin-left: 30px;
+    text-align: end;
+    padding-right: 40px;
+    padding-left: 60px;
+    padding-bottom: 150px;
 
 }
 
-#logo {
-    width: 100%;
-    margin-bottom: 25px;
-    margin-left: 30px;
-    
-}
-
-h3 {
-    margin-left: 25px;
+#otsikko2 {
+    text-align: start;
+    padding-left: 40px;
+ 
 }
 
 #tarina {
-    margin-left: 25px;
-    margin-bottom: 235px;
+    text-align: start;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-bottom: 130px;
 }
 
 footer {
-    background-color: rgba(245, 245, 245, 0.649);
-    padding-top: 11px;
     font-size: 14px;
     width: 100%;
-    position:sticky;
-    bottom: 0;
     text-align: center;
     display: block;
+    position: sticky;
+    padding-top: 10px;
 
 }
