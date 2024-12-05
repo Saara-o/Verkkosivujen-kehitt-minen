@@ -20,6 +20,9 @@ nav {
 }
 
 #etusivu {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
     background-color: blanchedalmond;
 }
 
@@ -97,17 +100,24 @@ nav {
 }
 
 #hinnat {
-    text-align: end;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
     background-color: blanchedalmond;
 }
 
+#muji {
+    max-width: 100%;
+    height: auto;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 #otsikko4 {
     text-align: end;
     padding-top: 70px;
-    padding-right: 190px;
+    padding-right: 40px;
     padding-bottom: 15px;
     margin-bottom: 0;
 }
@@ -115,19 +125,25 @@ nav {
 #taulukko {
     border-collapse: collapse;
     width: 100%;
-
-    padding-bottom: 130px;
-    padding-left: 130px ;
- 
-
-
+    padding-left: 375px;
+    
 }
 
 td, th {
     border: 1px solid;
+    border-color: transparent;
     text-align: left;
-    padding: 20px;
+    padding: 15px;
 
+}
+
+.tyyppi {
+    width: 70%;
+}
+
+.hinta {
+    width: 30%;
+    text-align: end;
 }
 
 footer {
