@@ -11,12 +11,12 @@ body {
 
 nav {
     height: 5%;
-    margin-top: -5px;
+    margin-top: -6px;
 
 }
 
 #collapsibleNavbar {
-    margin-right: 15px;
+    margin-right: 5px;
     text-align: right;
 }
 
@@ -169,7 +169,7 @@ td, th {
     padding-top: 130px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
 }
 
 #otsikko5 {
@@ -179,8 +179,12 @@ td, th {
 }
 
 .yhteystiedot {
-    margin: 5px;
-    padding-bottom: 30px;
+    margin: 20px;
+}
+
+#ig-linkki {
+    padding-top: 10px;
+    padding-bottom: 90px;
 }
 
 footer {
@@ -191,6 +195,6 @@ footer {
     position: sticky;
     padding-top: 10px;
     padding-bottom: 0px;
-    margin-bottom: 0px;
+    margin-bottom: -5px;
 
 }
