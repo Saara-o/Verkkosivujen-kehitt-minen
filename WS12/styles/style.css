@@ -84,7 +84,7 @@ nav {
     text-align: end;
     padding-top: 70px;
     padding-right: 40px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     margin-bottom: 0;
 }
 
@@ -95,16 +95,21 @@ nav {
 }
 
 .thumbnails {
-    padding-right: 35px;
+    padding-right: 40px;
+    width: 75%;
+    height: 75%;
+    max-width: 100%;
+    float: inline-end;
+
 }
 
 #sivupoyta {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 
 }
 
 #murasaki {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 
 }
 
