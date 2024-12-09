@@ -1,7 +1,7 @@
 body {
     width: 100%;
     font-family: Georgia, serif;
-    font-size: medium;
+    font-size: 16px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -10,21 +10,28 @@ body {
 }
 
 nav {
-    height: 5%;
-    margin-top: -6px;
-
+    margin-top: -5px;
+    margin-right: 10px;
 }
 
 #collapsibleNavbar {
     margin-right: 5px;
     text-align: right;
+
+}
+.navbar-toggler {
+    border: transparent;
+    padding: 5px;
 }
 
 .header {
     max-width: 100%;
+    height: auto;
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 
 }
 
@@ -35,33 +42,22 @@ nav {
     background-color: blanchedalmond;
 }
 
-#rahi {
-    max-width: 100%;
-    height: auto;
-    margin-right: 0px;
-}
-.col-md-4 {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
 #otsikko {
     text-align: end;
-    padding-top: 130px;
-    padding-right: 40px;
+    padding-top: 85px;
+    padding-right: 20px;
 
 }
 
 #esittely {
     text-align: end;
-    padding-right: 40px;
-    padding-left: 50px;
-    padding-bottom: 120px;
-
+    padding-left: 40px;
+    padding-right: 20px;
 }
 
 #otsikko2 {
     text-align: start;
+    padding-top: 65px;
     padding-left: 40px;
  
 }
@@ -69,8 +65,14 @@ nav {
 #tarina {
     text-align: start;
     padding-left: 40px;
-    padding-right: 50px;
-    padding-bottom: 80px;
+    padding-right: 20px;
+    padding-bottom: 45px;
+}
+
+#rahi {
+    max-width: 100%;
+    height: auto;
+  
 }
 
 #galleria {
@@ -82,9 +84,9 @@ nav {
 }
 #otsikko3 {
     text-align: end;
-    padding-top: 80px;
+    padding-top: 85px;
     padding-right: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     margin-bottom: 0;
 }
 
@@ -92,6 +94,7 @@ nav {
     max-width: 100%;
     margin: auto;
     object-fit: cover;
+    display: flex;
     
 }
 
@@ -131,7 +134,7 @@ nav {
 
 #otsikko4 {
     text-align: end;
-    padding-top: 70px;
+    padding-top: 85px;
     padding-right: 40px;
     padding-bottom: 15px;
     margin-bottom: 0;
@@ -139,26 +142,20 @@ nav {
 
 #taulukko {
     width: 100%;
-    padding-right: 50px;
-   
+    padding-right: 55px;
     padding-bottom: 50px;
-    
-}
-
-td, th {
     border: transparent;
-    text-align: left;
-    padding: 15px;
-
 }
 
-.tyyppi {
-    width: 100%;
+th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-.hinta {
-    width: 40%;
-    text-align: end;
+th {
+    background-color: rgba(85, 107, 47, 0.747);
 }
 
 #yhteystiedot {
@@ -172,7 +169,7 @@ td, th {
 
 #logo{
     max-width: 100%;
-    padding-top: 130px;
+    padding-top: 85px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
@@ -180,27 +177,66 @@ td, th {
 
 #otsikko5 {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 25px;
     padding-bottom: 0px;
 }
 
 .yhteystiedot {
-    margin: 20px;
+    margin-bottom: 25px;
 }
 
 #ig-linkki {
     padding-top: 10px;
-    padding-bottom: 90px;
+    padding-bottom: 85px;
 }
 
 footer {
     font-size: 14px;
-    width: 100%;
+    margin: 5px;
     text-align: center;
-    display: block;
     position: sticky;
-    padding-top: 10px;
-    padding-bottom: 0px;
-    margin-bottom: -5px;
+    bottom: 0;
 
 }
+
+@media (max-width: 1199px) { 
+    #etusivu .col-md-4 { 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        height: auto;
+    } 
+
+    #etusivu .col-md-8 { 
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    #galleria .col-md-6 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: auto; 
+    }
+ 
+    #galleria .col-md-4 {
+        margin: auto;
+        display: block;
+        width: 50%;
+        height: auto; 
+    
+    }
+    #hinnat .col-md-4 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
+    }
+
+
+}
+
+
+
